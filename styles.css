@@ -1,0 +1,66 @@
+#main {
+    height: 98vh;
+    width: 98vw;
+    font-family: 'Grandstander', cursive;
+}
+
+#head {
+    text-align: center;
+    border: 4px solid rgb(237, 43, 98);
+    color: rgb(237, 43, 98);
+    font-size: 2em;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+#container {
+    display: flex;
+    align-items: flex-start;
+}
+
+#btn-container {
+    width: 25%;
+    display: inline-block;
+    justify-content: center;
+}  
+
+.options-btn {
+    height: 80px;
+    margin: 10px;
+    width: 90%;
+    font-size: 1.75em;
+    border-radius: 8px;
+    font-family: 'Grandstander', cursive;
+}
+
+#etch-container {
+    width: 75%;
+    height: 74vh;
+    display: inline-block;
+    padding: 10px;
+}
+
+#etch-controller {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box {
+    border: solid rgb(107, 107, 107);
+    border-width: thin;
+    box-sizing: border-box;
+}
+
+.hover {
+    background-color: black;
+}
+
+.btn-select {
+    background-color: rgb(237, 43, 98);
+    color: white;
+}
